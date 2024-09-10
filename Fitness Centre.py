@@ -1,6 +1,6 @@
 import mysql.connector as con
 
-mycon = con.connect(host='localhost', user='root', passwd='Aravindhan@2006', database='fsa')
+mycon = con.connect(host='localhost', user='root', passwd='root', database='fsa')
 cur = mycon.cursor()
 
 cur.execute("select * from logindetails")
